@@ -14,4 +14,25 @@
         android:text="긴급 요청"
         android:onClick="onClick"/>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내 위치 보기"
+        android:onClick="onClick2"/>
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서버로 보내기"
+        android:onClick="onClick3"/>
+
+
 </LinearLayout>
